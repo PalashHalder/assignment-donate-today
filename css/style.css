@@ -1,19 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0 auto;
 }
-ul,ol,li,i,a{
+
+ul,
+ol,
+li,
+i,
+a {
     text-decoration: none;
     list-style: none;
 }
 
 /* ==========header section start========== */
-.header-part{
+.header-part {
     background-image: url('../images/donation1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
 }
+
 h1 {
     text-align: center;
     color: #FFFFFF;
@@ -24,6 +30,7 @@ h1 {
     margin-bottom: 50px;
     font-family: 'Poppins', sans-serif;
 }
+
 .header-part p {
     text-align: center;
     color: #FFFFFF;
@@ -32,7 +39,8 @@ h1 {
     padding-left: 35%;
     margin-bottom: 50px;
 }
-.link-button{
+
+.link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 20px 50px;
@@ -41,9 +49,10 @@ h1 {
     font-weight: 700;
     margin-left: 45%;
 }
+
 /* ==========header section end========== */
 /* ==========donation section start========== */
-.donation-part h2{
+.donation-part h2 {
     color: #000000;
     text-align: center;
     margin-top: 80px;
@@ -51,7 +60,7 @@ h1 {
     font-weight: 700;
 }
 
-.donation-part p{
+.donation-part p {
     color: #000000;
     text-align: center;
     margin-top: 30px;
@@ -59,17 +68,20 @@ h1 {
     padding-left: 35%;
     margin-bottom: 50px;
 }
-.button-items{
-    align-items: flex-end;
+
+.list-items {
+    align-items: center;
 
 }
-li{
+
+li {
     padding: 40px;
     border: 1px solid rgb(126, 125, 125);
     display: inline-flex;
     margin-left: 100px;
 }
-.second-button{
+
+.second-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 20px 50px;
@@ -80,30 +92,36 @@ li{
     margin-left: 45%;
     margin-top: 50px;
 }
+
 /* ==========donation section end========== */
 
 /* ==========donation plan start========== */
-.card-section{
+.flexible-container {
     display: flex;
     align-content: space-between;
     margin-top: 100px;
 }
+
 .area {
     width: 300px;
     height: 250px;
 }
+
 .area {
     box-shadow: 0 8px 16px 0 rgba(92, 65, 65, 0.2);
     transition: 0.4s;
     background: #b4d6ec;
-  }
+}
+
 .area:hover {
-    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
-  }
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
 .container {
     padding: 2px 16px;
-  }
-.area h4{
+}
+
+.area h4 {
     font-size: 22px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -116,14 +134,16 @@ li{
     display: flex;
     margin-bottom: 150PX;
 }
-.depend-plan{
+
+.depend-plan {
     margin-top: 50px;
 }
 
 .orange-color {
     color: orange;
 }
-.half-width h3{
+
+.half-width h3 {
     font-size: 50px;
     color: #000000;
     text-align: left;
@@ -131,6 +151,7 @@ li{
     margin-bottom: 30px;
 
 }
+
 .half-width {
     width: 50%;
     padding-left: 5%;
@@ -142,11 +163,13 @@ li{
     width: 80%;
     margin-top: 40px;
 }
+
 .half-width a {
     font-size: 22px;
 }
+
 .half-width p {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-size: 20px;
 }
 
@@ -161,15 +184,13 @@ li{
 
 /* ==========depend plan end========== */
 
-
-
-.update-part h1{
+.update-part h1 {
     color: #000000;
     font-size: 40px;
     font-weight: 700;
 }
 
-.update-part p{
+.update-part p {
     text-align: center;
     font-size: 24px;
     font-weight: 400;
@@ -177,42 +198,46 @@ li{
     margin-right: 35%;
 }
 
-.box{
+.box {
     width: 60%;
     height: 300px;
     background: #f5ebbf;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 40px;
+    margin-top: 20px;
 }
-.box-item{
+
+.box-item {
     padding-left: 25%;
     padding-top: 10%;
 }
-input{
+
+input {
     background: rgb(211, 211, 211);
     border: none;
     padding: 20px 300px 20px 10px;
 }
 
-button{
+button {
     background: tomato;
     border: none;
     padding: 20px 50px;
 }
 
-footer{
+footer {
     background: rgb(36, 24, 109);
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
-footer h3{
+
+footer h3 {
     text-align: center;
     font-size: 30px;
     color: tomato;
 
 }
-footer p{
+
+footer p {
     text-align: center;
     font-size: 24px;
     color: #FFFFFF;
